@@ -2,7 +2,7 @@ using Chirper.Client;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-
+//comments
 Console.Title = "Chirper Client";
 
 await new HostBuilder()
