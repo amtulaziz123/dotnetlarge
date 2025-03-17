@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows10.0.22621.0</TargetFramework>
+    <RootNamespace>WPF_WinRT_Core</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="..\WPF-WinRT-NetFx\App.xaml" Link="App.xaml" />
+    <Compile Include="..\WPF-WinRT-NetFx\App.xaml.cs" Link="App.xaml.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="..\WPF-WinRT-NetFx\MainWindow.xaml" Link="MainWindow.xaml" />
+    <Compile Include="..\WPF-WinRT-NetFx\MainWindow.xaml.cs" Link="MainWindow.xaml.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="7.0.3" />
+  </ItemGroup>
+</Project>
