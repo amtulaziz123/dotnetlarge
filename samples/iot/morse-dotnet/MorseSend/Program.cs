@@ -1,5 +1,5 @@
 ﻿using System.Device.Gpio;
-
+//comments
 namespace Morse.Net
 {
     class Program
